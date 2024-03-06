@@ -11,7 +11,7 @@ This project is based on task management. The app performs adding, editing, dele
 
 ## Installation
 
-**_ The app contains 2 directories which hold the frontend and backend _**
+** The app contains 2 directories which hold the frontend and backend **
 
 ### To install the backend api
 
@@ -23,7 +23,7 @@ Run `npm install` inside the `client` directory
 
 ## Usage
 
-**_ After installation run `npm start` inside client directory and `npm run dev` inside api directory and open `http:localhost:3000` to start using the app _**
+** After installation run `npm start` inside client directory and `npm run dev` inside api directory and open `http:localhost:3000` to start using the app **
 
 ## Contributing
 
