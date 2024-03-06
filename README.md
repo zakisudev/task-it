@@ -36,3 +36,7 @@ This project is under the MIT license.
 ## Contact
 
 - Contact me at zakisudev@gmail.com for any inquiries or support.
+
+## Developed by
+
+zakisudev
