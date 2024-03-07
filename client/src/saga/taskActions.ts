@@ -10,7 +10,7 @@ export interface UpdateTaskProps {
 
 export const fetchTasks = (): { type: string } => {
   return {
-    type: 'GET_TASKS',
+    type: TaskActionTypes.GET_TASKS,
   };
 };
 
