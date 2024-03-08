@@ -17,9 +17,6 @@ logs/
 # Testing artifacts
 coverage/
 
-# Compiled JavaScript files
-*.js
-
 # TypeScript declaration files
 *.d.ts
 
