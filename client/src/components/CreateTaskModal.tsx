@@ -38,7 +38,7 @@ const CreateTaskModal: React.FC<CreateModalProps> = ({ setCreateModal }) => {
   return (
     <div className="w-full max-h-screen overflow-scroll inset-0 absolute top-0 bottom-0 right-0 left-0 bg-black/70 z-50">
       <div className="flex w-full h-full justify-center items-center">
-        <div className="bg-white p-5 rounded w-[90%] flex flex-col justify-start items-center shadow-md relative">
+        <div className="bg-white p-5 rounded flex flex-col justify-start items-center shadow-md relative">
           <button
             onClick={() => setCreateModal(false)}
             className="absolute top-0 right-0 m-5"
