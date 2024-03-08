@@ -1,0 +1,11 @@
+const TaskActionTypes = {
+  GET_TASKS: 'GET_TASKS',
+  CREATE_TASK: 'CREATE_TASK',
+  UPDATE_TASK: 'UPDATE_TASK',
+  DELETE_TASK: 'DELETE_TASK',
+  SET_TASKS: 'SET_TASKS',
+  SET_LOADING: 'SET_LOADING',
+  SET_ERROR: 'SET_ERROR',
+};
+
+export default TaskActionTypes;
