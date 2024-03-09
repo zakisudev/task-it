@@ -8,6 +8,8 @@ const Layout = () => {
     <div className="w-full max-h-screen overflow-auto justify-start flex flex-col">
       <Navbar />
       <Outlet />
+
+      {/* Add the ToastContainer component */}
       <ToastContainer
         position="top-center"
         autoClose={2000}
