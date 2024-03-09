@@ -1,3 +1,5 @@
+// common interfaces for the app
+
 export interface TaskData {
   _id: string;
   title: string;
