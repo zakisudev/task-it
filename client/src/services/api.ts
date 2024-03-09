@@ -1,6 +1,7 @@
 import axios from 'axios';
 import TASKS_URL from '../constants';
 
+// Get tasks api call
 export const getTasks = async () => {
   try {
     const res = await axios.get(TASKS_URL);
@@ -10,6 +11,7 @@ export const getTasks = async () => {
   }
 };
 
+// Create task api call
 export const createTask = async (task: any) => {
   try {
     const res = await axios.post(TASKS_URL, task);
@@ -19,6 +21,7 @@ export const createTask = async (task: any) => {
   }
 };
 
+// Update task api call
 export const updateTask = async (task: any) => {
   try {
     const res = await axios.put(`${TASKS_URL}/${task.id}`, task);
@@ -28,6 +31,7 @@ export const updateTask = async (task: any) => {
   }
 };
 
+// Delete task api call
 export const deleteTask = async (id: string) => {
   try {
     const res = await axios.delete(`${TASKS_URL}/${id}`);
