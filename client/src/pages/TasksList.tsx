@@ -10,6 +10,7 @@ const Tasks = () => {
   const [createModal, setCreateModal] = useState<boolean>(false);
   const tasks = useSelector((state: any) => state.tasks);
 
+  // Fetch tasks on component mount
   useEffect(() => {
     dispatch(fetchTasks());
   }, [dispatch]);
