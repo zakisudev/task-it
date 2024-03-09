@@ -15,6 +15,7 @@ import {
   deleteTask,
 } from '../taskSlice';
 
+// Fetch tasks saga
 function* fetchTasksSaga(): any {
   try {
     yield put(setLoading(true));
@@ -29,6 +30,7 @@ function* fetchTasksSaga(): any {
   }
 }
 
+// Add task saga
 function* addTask(action: any): any {
   try {
     yield put(setLoading(true));
@@ -43,6 +45,7 @@ function* addTask(action: any): any {
   }
 }
 
+// Update task saga
 function* updateTaskSaga(action: any): any {
   try {
     yield put(setLoading(true));
@@ -57,6 +60,7 @@ function* updateTaskSaga(action: any): any {
   }
 }
 
+// Delete task saga
 function* deleteTaskSaga(action: any): any {
   try {
     yield put(setLoading(true));
@@ -71,6 +75,7 @@ function* deleteTaskSaga(action: any): any {
   }
 }
 
+// Task sagas
 export default function* taskSagas() {
   yield takeLatest(TaskActionTypes.GET_TASKS, fetchTasksSaga);
   yield takeLatest(TaskActionTypes.CREATE_TASK, addTask);
